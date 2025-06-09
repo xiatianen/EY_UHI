@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environment
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Project specific
+/data/raw/
+/data/processed/
+/models/saved_models/
+/reports/
+
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/saved_models/.gitkeep
+!reports/.gitkeep
+
+# Ignore all .pkl files
+*.pkl
